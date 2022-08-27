@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./Calculator.css">
+    
+</head>
+<body >
+    <center>
+        <p>Calculator</p>
+    <div>
+    <form name="cf">
+        <input id="calc" type="text" name="Answer">
+        <br><br>
+        <input class="i1" type="button" value="1" onclick="cf.Answer.value+='1'">
+        <input class="i1" type="button" value="2" onclick="cf.Answer.value+='2'">
+        <input class="i1" type="button" value="3" onclick="cf.Answer.value+='3'">
+        <input class="i1" type="button" value="+" onclick="cf.Answer.value+='+'">
+        <br><br>
+        <input class="i1" type="button" value="4" onclick="cf.Answer.value+='4'">
+        <input class="i1" type="button" value="5" onclick="cf.Answer.value+='5'">
+        <input class="i1" type="button" value="6" onclick="cf.Answer.value+='6'">
+        <input class="i1" type="button" value="-" onclick="cf.Answer.value+='-'">
+        <br><br>
+        <input class="i1" type="button" value="7" onclick="cf.Answer.value+='7'">
+        <input class="i1" type="button" value="8" onclick="cf.Answer.value+='8'">
+        <input class="i1" type="button" value="9" onclick="cf.Answer.value+='9'">
+        <input class="i1" type="button" value="*" onclick="cf.Answer.value+='*'">
+        <br><br>
+        <input class="i1" type="button" value="/" onclick="cf.Answer.value+='/'">
+        <input class="i1" type="button" value="0" onclick="cf.Answer.value+='0'">
+        <input class="i1" type="button" value="%" onclick="cf.Answer.value+='%'">
+        <input class="i1" type="button" value="=" onclick="cf.Answer.value =eval(cf.Answer.value)">
+        <br><br>
+        <input id="c" type="button" value="clear" onclick="cf.Answer.value =' '">
+
+    </form>
+</body>
+</div>
+</center>
+</html>
